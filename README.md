@@ -8,7 +8,7 @@ Lymph Node Metastases of Breast Cancer
 - Tabular data, Image Data에서 각각 특징을 추출하고 합쳐, 하나의 딥러닝 모델으로 사용하여 이진분류
 
 ### 데이터
-- https://dacon.io/competitions/official/236011/data
+- https://dacon.io/competitions/official/236011/data <br/>
 데이터의 모든 권한은 데이콘에 있습니다. (DataSet Is Copyright DACON Inc. All rights reserved)
 
 ### 개발환경
