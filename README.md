@@ -1,6 +1,6 @@
 # LymphNodeMetastases_of_BreastCancer
 Lymph Node Metastases of Breast Cancer
-
+<br/><hr/><br/>
 ### 프로젝트 주제
 - 유방암 병리 슬라이드 영상과 임상 항목을 통한 유방암의 임파선 전이 여부 이진 분류 예측
 
@@ -58,29 +58,46 @@ Lymph Node Metastases of Breast Cancer
 
 <br/><hr/><br/>
 ### 데이터 설명
-1. Image Data
-- 유방암 환자의 병리 슬라이드 이미지
-- Image Max Height 8299 / Image max Width 3991
+> 데이터는 위 URL에서 다운로드 받아야 합니다.
+<br/>
+
+#### 1. Image Data
+
+> 유방암 환자의 병리 슬라이드 이미지<br/>
+> Image Max Height 8299 / Image max Width 3991<br/>
 (유방암 환자의 조직을 염색하여 동결절편한 것의 이미지입니다.)
 
-> p_images
-- Image에 Padding을 적용하여 고정 Size로 설정한 Image 입니다.
+- p_images
+> Image에 Padding을 적용하여 고정 Size로 설정한 Image 입니다.
 
-> r_images
-- Image의 가로/세로 크기 중 큰 값을 가지고 비율로 설정하여 Max 1024에 맞추어 Resize 한 Image 입니다.
-- 이미지 손실을 줄이기 위하여 INTER_AREA, INTER_LANCZOS4 두가지의 보간법을 사용하였습니다.
+- 1024_folder
+> Image의 가로/세로 크기 중 큰 값을 가지고 비율로 설정하여 Max 1024에 맞추어 Resize 한 Image 입니다.<br/>
+> 이미지 손실을 줄이기 위하여 INTER_AREA, INTER_LANCZOS4 두가지의 보간법을 사용하였습니다.
 
-2. Tabuler Data
-- 유방암 환자의 전이여부 검사 결과 항목과 환자 개인정보, 병리학 이미지 경로 등이 입력된 28개 column의 데이터
-- 28 columns : ID, img_path, mask_path(Just train set), 나이, 수술연월일, 진단명, 암의위치, 암의개수, 암의장경, NG, HG, HG_score1, HG_score2, HG_score3, DCIS_or_LCIS 여부, DCIS_or_LCIS_type, T_category, ER, ER_Allred_score, PR, PR_Allred_score, KI-67_LI_percent, HER2, HER2_IHC, HER2_SISH, HER2_SISH_ratio, BRCA_mutation, N_category(Just train set)
+- FULL_PADDING
+> Image의 Max Width, Height 값을 가지고 Padding한 데이터 입니다.
+
+<br/>
+
+#### 2. Tabuler Data
+
+> 유방암 환자의 전이여부 검사 결과 항목과 환자 개인정보, 병리학 이미지 경로 등이 입력된 28개 column의 데이터<br/>
+> 28 columns : ID, img_path, mask_path(Just train set), 나이, 수술연월일, 진단명, 암의위치, 암의개수, 암의장경, NG, HG, HG_score1, HG_score2, HG_score3, DCIS_or_LCIS 여부, DCIS_or_LCIS_type, T_category, ER, ER_Allred_score, PR, PR_Allred_score, KI-67_LI_percent, HER2, HER2_IHC, HER2_SISH, HER2_SISH_ratio, BRCA_mutation, N_category(Just train set)
 
 
 <br/><hr/><br/>
 ### Code File 설명
-1. filename
-- 설명
-2. filename
-- 설명
+- 1. File Name 00_
+> Mask Image를 확인
+- 2. File Name 01_
+> EDA
+- 3. File Name 02_
+> 제거
+- 4. File Name 03_
+> Activation Function에 따른 Score를 확인
+- 5. File Name 04_
+> Model 구성 및 변경
+
 
 <br/><hr/><br/>
 ### Activate Function Validation Score
