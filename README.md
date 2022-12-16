@@ -201,5 +201,9 @@ Lymph Node Metastases of Breast Cancer
   https://pytorch.org/vision/stable/models.html<br/><br/>
   U-Net Model with submission<br/>
   https://www.kaggle.com/code/hmendonca/u-net-model-with-submission/notebook<br/><br/>
+  Breast Cancer Histology<br/>
+  https://emedicine.medscape.com/article/1954658-overview#a3<br/><br/>
+  BRCA Gene Mutations: Cancer Risk and Genetic Testing<br/>
+  https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet<br/><br/>
   
 </details>
