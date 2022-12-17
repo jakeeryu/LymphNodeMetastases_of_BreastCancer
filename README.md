@@ -30,20 +30,20 @@ Lymph Node Metastases of Breast Cancer
   </tr>
   
   <tr>
-    <th>권진욱</th>
+    <th><a href='https://github.com/JacobKwon'>권진욱</a></th>
     <th>팀장</th>
     <th>Image Processing / EDA</th>
     <th rowspan="4">Modeling</th>
   </tr>
   
   <tr>
-    <th>류제욱</th>
+    <th><a href='https://github.com/jakeeryu'>류제욱</a></th>
     <th>팀원</th>
     <th>Tabular Data Feature Extraction</th>
   </tr>
   
   <tr>
-    <th>전대광</th>
+    <th><a href='https://github.com/devTeddyB'>전대광</a></th>
     <th>팀원</th>
     <th>Tabular Data EDA / Wrangling</th>
   </tr>
@@ -87,16 +87,20 @@ Lymph Node Metastases of Breast Cancer
 
 <br/><hr/><br/>
 ### Code File 설명
-- 1. File Name 00_
-> Mask Image를 확인
-- 2. File Name 01_
-> EDA
-- 3. File Name 02_
-> 제거
-- 4. File Name 03_
-> Activation Function에 따른 Score를 확인
-- 5. File Name 04_
-> Model 구성 및 변경
+<strong>1. File Name "00_"</strong><br/>
+> Mask Image를 확인<br/>
+
+<strong>2. File Name "01_"</strong><br/>
+> EDA<br/>
+
+<strong>3. File Name "02_"</strong><br/>
+> 제거<br/>
+
+<strong>4. File Name "03_"</strong><br/>
+> Activation Function에 따른 Score를 확인<br/>
+
+<strong>5. File Name "04_"</strong><br/>
+> Model 구성 및 변경<br/>
 
 
 <br/><hr/><br/>
