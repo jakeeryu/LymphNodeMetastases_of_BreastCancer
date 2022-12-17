@@ -82,6 +82,7 @@ Lymph Node Metastases of Breast Cancer
 #### 2. Tabuler Data
 
 > 유방암 환자의 전이여부 검사 결과 항목과 환자 개인정보, 병리학 이미지 경로 등이 입력된 28개 column의 데이터<br/>
+
 > 28 columns : ID, img_path, mask_path(Just train set), 나이, 수술연월일, 진단명, 암의위치, 암의개수, 암의장경, NG, HG, HG_score1, HG_score2, HG_score3, DCIS_or_LCIS 여부, DCIS_or_LCIS_type, T_category, ER, ER_Allred_score, PR, PR_Allred_score, KI-67_LI_percent, HER2, HER2_IHC, HER2_SISH, HER2_SISH_ratio, BRCA_mutation, N_category(Just train set)
 
 
