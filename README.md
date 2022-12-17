@@ -105,109 +105,53 @@ Lymph Node Metastases of Breast Cancer
 
 <br/><hr/><br/>
 ### Activate Function Validation Score
-<table>
-  <tr>
-    <th>Activation</th>
-    <th>Last Epoch</th>
-    <th>Max Achieved</th>
-    <th>Average</th>
-  </tr>
-  
-  <tr>
-    <th>LeakyReLU [Baseline]</th>
-    <th>77.892</th>
-    <th>77.892</th>
-    <th>74.228</th>
-  </tr>
-  
-  <tr>
-    <th>LeakyReLU (Reduced)</th>
-    <th>75.758</th>
-    <th>76.540</th>
-    <th>75.286</th>
-  </tr>
-  
-  <tr>
-    <th>ELU</th>
-    <th>75.706</th>
-    <th><strong>80.390</strong></th>
-    <th>75.958</th>
-  </tr>
-  
-  <tr>
-    <th>ELU (Added)</th>
-    <th>76.768</th>
-    <th>79.884</th>
-    <th>77.997</th>
-  </tr>
-  
-  <tr>
-    <th>GELU</th>
-    <th>77.249</th>
-    <th>77.679</th>
-    <th>74.743</th>
-  </tr>
-  
-  <tr>
-    <th>GELU (Reduced)</th>
-    <th>75.485</th>
-    <th>77.422</th>
-    <th>75.806</th>
-  </tr>
-  
-  <tr>
-    <th>GELU (Added)</th>
-    <th>78.304</th>
-    <th>78.435</th>
-    <th>76.896</th>
-  </tr>
-  
-  <tr>
-    <th>SELU (Added)</th>
-    <th>72.806</th>
-    <th>74.960</th>
-    <th>73.193</th>
-  </tr>
-</table>
 
-
+| Activation           | Last Epoch | Max Achieved | Average |
+|----------------------|------------|--------------|---------|
+| LeakyReLU [Baseline] | 77.892     | 77.892       | 74.228  |
+| LeakyReLU (Reduced)  | 75.758     | 76.540       | 75.286  |
+| ELU                  | 75.706     | **80.390**   | 75.958  |
+| ELU (Added)          | 76.768     | 79.884       | 77.997  |
+| GELU                 | 77.249     | 77.679       | 74.743  |
+| GELU (Reduced)       | 75.485     | 77.422       | 75.806  |
+| GELU (Added)         | 78.304     | 78.435       | 76.896  |
+| SELU (Added)         | 72.806     | 74.960       | 73.193  |
 
 <br/><hr/><br/>
 <details>
   <summary>Reference</summary>
-  Multiple Instance Learning: Model Pipeline<br/>
-  https://www.youtube.com/watch?v=h5qThVdAfOQ<br/><br/>
-  Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning<br/>
-  https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Dual-Stream_Multiple_Instance_Learning_Network_for_Whole_Slide_Image_Classification_CVPR_2021_paper.pdf<br/><br/>
-  Multiple Instance Learning<br/>
-  https://medium.com/swlh/multiple-instance-learning-c49bd21f5620<br/><br/>
-  MedAI #36: Weakly supervised tumor detection in whole slide image analysis | Bin Li<br/>
-  https://www.youtube.com/watch?v=ZPe94q8wxPQ<br/><br/>
-  2018 Data Science Bowl: Find the nuclei in divergent images to advance medical discovery<br/>
-  https://www.kaggle.com/competitions/data-science-bowl-2018/data<br/><br/>
-  Breast Cancer Classification With PyTorch and Deep Learning<br/>
-  https://medium.com/swlh/breast-cancer-classification-with-pytorch-and-deep-learning-52dd62362157<br/><br/>
-  Deep learning-based cross-classifications reveal conserved spatial behaviors within tumor histological images<br/>
-  https://www.nature.com/articles/s41467-020-20030-5<br/><br/>
-  Deep Learning Models for Histopathological Classification of Gastric and Colonic Epithelial Tumours<br/>
-  https://www.nature.com/articles/s41598-020-58467-9<br/><br/>
-  Finetuning Torchvision Models<br/>
-  https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html#inception-v3<br/><br/>
-  Torchvision.models<br/>
-  https://pytorch.org/vision/0.8/models.html<br/><br/>
-  U-Net: Convolutional Networks for Biomedical Image Segmentation<br/>
-  https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/<br/><br/>
-  U-Net For Brain MRI<br/>
-  https://pytorch.org/hub/mateuszbuda_brain-segmentation-pytorch_unet/<br/><br/>
-  Pytorch에서 학습한 모델 저장 및 불러오기<br/>
-  https://justkode.kr/deep-learning/pytorch-save<br/><br/>
-  Models and Pre-trained Weights<br/>
-  https://pytorch.org/vision/stable/models.html<br/><br/>
-  U-Net Model with submission<br/>
-  https://www.kaggle.com/code/hmendonca/u-net-model-with-submission/notebook<br/><br/>
-  Breast Cancer Histology<br/>
-  https://emedicine.medscape.com/article/1954658-overview#a3<br/><br/>
-  BRCA Gene Mutations: Cancer Risk and Genetic Testing<br/>
-  https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet<br/><br/>
+  <br/>
+  
+  [Multiple Instance Learning: Model Pipeline](https://www.youtube.com/watch?v=h5qThVdAfOQ)
+  
+  [Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Dual-Stream_Multiple_Instance_Learning_Network_for_Whole_Slide_Image_Classification_CVPR_2021_paper.pdf)
+  
+  [Multiple Instance Learning](https://medium.com/swlh/multiple-instance-learning-c49bd21f5620)
+  
+  [MedAI #36: Weakly supervised tumor detection in whole slide image analysis | Bin Li](https://www.youtube.com/watch?v=ZPe94q8wxPQ)
+  
+  [2018 Data Science Bowl: Find the nuclei in divergent images to advance medical discovery](https://www.kaggle.com/competitions/data-science-bowl-2018/data)
+  
+  [Breast Cancer Classification With PyTorch and Deep Learning](https://medium.com/swlh/breast-cancer-classification-with-pytorch-and-deep-learning-52dd62362157)
+  
+  [Deep learning-based cross-classifications reveal conserved spatial behaviors within tumor histological images](https://www.nature.com/articles/s41467-020-20030-5)
+  
+  [Deep Learning Models for Histopathological Classification of Gastric and Colonic Epithelial Tumours](https://www.nature.com/articles/s41598-020-58467-9)
+  
+  [Finetuning Torchvision Models](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html#inception-v3)
+  
+  [Torchvision.models](https://pytorch.org/vision/0.8/models.html)
+  
+  [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+  
+  [U-Net For Brain MRI](https://pytorch.org/hub/mateuszbuda_brain-segmentation-pytorch_unet/)
+  
+  [Models and Pre-trained Weights](https://pytorch.org/vision/stable/models.html)
+  
+  [U-Net Model with submission](https://www.kaggle.com/code/hmendonca/u-net-model-with-submission/notebook)
+  
+  [Breast Cancer Histology](https://emedicine.medscape.com/article/1954658-overview#a3)
+  
+  [BRCA Gene Mutations: Cancer Risk and Genetic Testing](https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet)
   
 </details>
